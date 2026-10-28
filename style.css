@@ -1,0 +1,105 @@
+/* CSS reset, dit niet aanpassen! */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Hieronder mag je eigen CSS code */
+
+body {
+    background-color:hotpink;
+    color:aliceblue;
+    font-family:cursive
+}
+p{
+    background-color: #ffbcd2;
+}
+h1{background-color: #ffbcd2;
+color: hotpink;
+text-align: center;}
+
+h2{background-color: #d268ff;}
+a{color:#dd0f53}
+img{width: 300px;
+}
+.menu{background-color: #f948ff;}
+
+#mybox{ 
+        text-align:center;
+    }
+
+
+.mijndivs {
+    background-color: hsl(304, 100%, 82%);
+    margin: 10px;
+    border: 7px dotted #831325
+}
+
+.mijndivs3 {  
+    background-color: hsl(304, 100%, 82%);
+    margin: 10px;
+    border: 7px dotted #831325
+}
+
+
+#mijndiv2 {background-image: url(images/dachshund.mp4);}
+
+#mijndiv3 {background-image: url(images/teckel\ 1.jpeg);}
+
+body2
+{
+display: grid;
+    grid-template-rows: 10vw 10vw;
+    grid-template-columns: 20vw 15vw 15vw 15vw 15vw 20vw;
+}
+#myGrid {
+
+    grid-column: 1 / 4 ;
+    grid-row: 1 / 4 ;
+    background-color: #ff9cad;
+    border: 7px dashed #8e0e39;
+}
+
+#myGrid2 {
+   
+    grid-column: 4 / 7 ;
+    grid-row: 1 / 4 ;
+    background-color: #8e0e39;
+    border: 7px dashed #ff9cad;
+}
+
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
